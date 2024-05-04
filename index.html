@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkedup</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    
+    <nav>
+
+        <div class="nav-left">
+            <div class="logo">
+                <a href="./index.html"><img src="./images/logo.png" alt=""></a>
+            </div>
+            <div class="search-box">
+                <img src="./images/search.png" alt="">
+                <input type="search" placeholder="Search...">
+            </div>
+        </div>
+
+        <div class="nav-center">
+            <ul>
+                <li><a href="./index.html"><img src="./images/home.png" alt=""> Home</a></li>
+                <li><a href="./index.html"><img src="./images/network.png" alt=""> My Network</a></li>
+                <li><a href="./index.html"><img src="./images/jobs.png" alt=""> Jobs</a></li>
+                <li><a href="./index.html"><img src="./images/message.png" alt=""> Messaging</a></li>
+                <li><a href="./index.html"><img src="./images/notification.png" alt=""> Notifications</a></li>
+            </ul>
+        </div>
+
+        <div class="nav-right" id="menu-icon">
+            <div class="online">
+                <img src="./images/user-1.png" alt="">
+            </div>
+        </div>
+
+        <div class="profile-menu-wrapper" id="profile-menu">
+
+            <div class="profile-menu">
+
+                <div class="user-info">
+                    <div class="profile-image">
+                        <img src="./images/user-1.png" alt="">
+                    </div>
+                    <div class="profile-text">
+                        <h3>Rayan Walton</h3>
+                        <a href="./profile.html">See your profile</a>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="profile-menu-links">
+                    <a href="#">
+                        <img src="./images/feedback.png" alt="">
+                        <p>Give Feedback</p>
+                        <span>></span>
+                    </a>
+                    <a href="#">
+                        <img src="./images/setting.png" alt="">
+                        <p>Settings & Privacy</p>
+                        <span>></span>
+                    </a>
+                    <a href="#">
+                        <img src="./images/help.png" alt="">
+                        <p>Help & Support</p>
+                        <span>></span>
+                    </a>
+                    <a href="#">
+                        <img src="./images/display.png" alt="">
+                        <p>Display & Accessibility</p>
+                        <span>></span>
+                    </a>
+                    <a href="#">
+                        <img src="./images/logout.png" alt="">
+                        <p>Logout</p>
+                        <span>></span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- Navbar Ends -->
+
+    <!-- Main Content -->
+
+    <main class="container">
+        <!-- Left Sidebar -->
+        <div class="left-sidebar">
+
+            <div class="sidebar-profile-box">
+                <div class="cover-photo">
+                    <img src="./images/cover-pic.png" alt="">
+                </div>
+                <div class="sidebar-profile-info">
+                    <div class="user-img">
+                        <img src="./images/user-1.png" alt="">
+                    </div>
+                    <div class="user-text">
+                        <h1>Rayan Walter</h1>
+                        <h3>Web Developer at Microsoft.</h3>
+                        <ul>
+                            <li>Your Profile Views <span>52</span></li>
+                            <li>Your Post Views <span>809</span></li>
+                            <li>Your Connections <span>205</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="sidebar-profile-links">
+                        <a href="#"><img src="./images/items.png" alt=""> My Items</a>
+                        <a href="#"><img src="./images/premium.png" alt=""> Try Premium</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="sidebar-activity">
+                <h3>Recent</h3>
+                <a href="#"><img src="./images/recent.png" alt=""> Web Development</a>
+                <a href="#"><img src="./images/recent.png" alt=""> Online Learning</a>
+                <a href="#"><img src="./images/recent.png" alt=""> User Interface</a>
+                <a href="#"><img src="./images/recent.png" alt=""> Blogging</a>
+                <a href="#"><img src="./images/recent.png" alt=""> Seo</a>
+                <a href="#"><img src="./images/recent.png" alt=""> Frontend</a>
+                <a href="#"><img src="./images/recent.png" alt=""> Backend</a>
+                <h3>Groups</h3>
+                <a href="#"><img src="./images/group.png" alt=""> Web Developer</a>
+                <a href="#"><img src="./images/group.png" alt=""> HTML & CSS</a>
+                <a href="#"><img src="./images/group.png" alt=""> Javascript</a>
+                <a href="#"><img src="./images/group.png" alt=""> Python</a>
+                <a href="#"><img src="./images/group.png" alt=""> Programming</a>
+                <h3>Hashtag</h3>
+                <a href="#"><img src="./images/hashtag.png" alt=""> websitedevelopment</a>
+                <a href="#"><img src="./images/hashtag.png" alt=""> blogging</a>
+                <a href="#"><img src="./images/hashtag.png" alt=""> coding</a>
+                <a href="#"><img src="./images/hashtag.png" alt=""> onlinelearning</a>
+                <div class="discover-more-link">
+                    <a href="#">Discover More</a>
+                </div>
+            </div>
+
+        </div>
+        <!-- Left Sidebar Ends -->
+
+        <!-- Main Content -->
+        <div class="main-content">
+            
+            <div class="create-post">
+
+                <div class="create-post-input">
+                    <div class="input-img"><img src="./images/user-1.png" alt=""></div>
+                    <div class="input-textarea">
+                        <input type="text" placeholder="Write a Post...">
+                    </div>
+                </div>
+
+                <div class="create-post-links">
+                    <ul>
+                        <li><img src="./images/photo.png" alt=""> Photo</li>
+                        <li><img src="./images/video.png" alt=""> Video</li>
+                        <li><img src="./images/event.png" alt=""> Event</li>
+                        <li>Post</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="sort-by">
+                <hr>
+                <p>Sort by <span>top <img src="./images/down-arrow.png" alt=""></span></p>
+            </div>
+
+
+            <div class="post">
+
+                <div class="post-author">
+                    <div class="author-img">
+                        <img src="./images/user-1.png" alt="">
+                    </div>
+                    <div class="author-text">
+                        <h3>John Nicholson</h3>
+                        <p>Founder and CEO at Seo Optimals.</p>
+                        <small>2 hours ago</small>
+                    </div>
+                </div>
+
+                <div class="post-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nesciunt debitis quisquam esse nam excepturi dolore minima maiores commodi laborum!</p>
+                </div>
+                <div class="post-img">
+                    <img src="./images/post-image-1.png" alt="">
+                </div>
+
+                <div class="post-stats">
+                    <div class="stats-left">
+                        <img src="./images/thumbsup.png" alt="">
+                        <img src="./images/love.png" alt="">
+                        <img src="./images/clap.png" alt="">
+                        <span class="liked-users">Abhinav Mishra and 77 others</span>
+                    </div>
+                    <div class="stats-right">
+                        22 Comments &middot; 40 Shares
+                    </div>
+                </div>
+
+                <div class="post-activity">
+                    <div class="activity-user">
+                        <img src="./images/user-1.png" alt="" class="author">
+                        <img src="./images/down-arrow.png" alt="" class="arrow">
+                    </div>
+                    <div class="activity-action">
+                        <img src="./images/like.png" alt="">
+                        <span> Like</span>
+                    </div>
+                    <div class="activity-action">
+                        <img src="./images/comment.png" alt="">
+                        <span> Comment</span>
+                    </div>
+                    <div class="activity-action">
+                        <img src="./images/share.png" alt="">
+                        <span> Share</span>
+                    </div>
+                    <div class="activity-action">
+                        <img src="./images/send.png" alt="">
+                        <span> Send</span>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="post">
+
+                <div class="post-author">
+                    <div class="author-img">
+                        <img src="./images/user-1.png" alt="">
+                    </div>
+                    <div class="author-text">
+                        <h3>Aliza</h3>
+                        <p>Founder of Tech Begginer.</p>
+                        <small>3 hours ago</small>
+                    </div>
+                </div>
+
+                <div class="post-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nesciunt debitis quisquam esse nam excepturi dolore minima maiores commodi laborum!</p>
+                </div>
+                <div class="post-img">
+                    <img src="./images/post-image-2.png" alt="">
+                </div>
+
+                <div class="post-stats">
+                    <div class="stats-left">
+                        <img src="./images/thumbsup.png" alt="">
+                        <img src="./images/love.png" alt="">
+                        <img src="./images/clap.png" alt="">
+                        <span class="liked-users">Abhinav Mishra and 77 others</span>
+                    </div>
+                    <div class="stats-right">
+                        22 Comments &middot; 40 Shares
+                    </div>
+                </div>
+
+                <div class="post-activity">
+                    <div class="activity-user">
+                        <img src="./images/user-1.png" alt="" class="author">
+                        <img src="./images/down-arrow.png" alt="" class="arrow">
+                    </div>
+                    <div class="activity-action">
+                        <img src="./images/like.png" alt="">
+                        <span> Like</span>
+                    </div>
+                    <div class="activity-action">
+                        <img src="./images/comment.png" alt="">
+                        <span> Comment</span>
+                    </div>
+                    <div class="activity-action">
+                        <img src="./images/share.png" alt="">
+                        <span> Share</span>
+                    </div>
+                    <div class="activity-action">
+                        <img src="./images/send.png" alt="">
+                        <span> Send</span>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="post">
+
+                <div class="post-author">
+                    <div class="author-img">
+                        <img src="./images/user-1.png" alt="">
+                    </div>
+                    <div class="author-text">
+                        <h3>Yuwang Tung</h3>
+                        <p>Founder and CEO of Markters.</p>
+                        <small>6 hours ago</small>
+                    </div>
+                </div>
+
+                <div class="post-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nesciunt debitis quisquam esse nam excepturi dolore minima maiores commodi laborum!</p>
+                </div>
+                <div class="post-img">
+                    <img src="./images/post-image-1.png" alt="">
+                </div>
+
+                <div class="post-stats">
+                    <div class="stats-left">
+                        <img src="./images/thumbsup.png" alt="">
+                        <img src="./images/love.png" alt="">
+                        <img src="./images/clap.png" alt="">
+                        <span class="liked-users">Abhinav Mishra and 77 others</span>
+                    </div>
+                    <div class="stats-right">
+                        22 Comments &middot; 40 Shares
+                    </div>
+                </div>
+
+                <div class="post-activity">
+                    <div class="activity-user">
+                        <img src="./images/user-1.png" alt="" class="author">
+                        <img src="./images/down-arrow.png" alt="" class="arrow">
+                    </div>
+                    <div class="activity-action">
+                        <img src="./images/like.png" alt="">
+                        <span> Like</span>
+                    </div>
+                    <div class="activity-action">
+                        <img src="./images/comment.png" alt="">
+                        <span> Comment</span>
+                    </div>
+                    <div class="activity-action">
+                        <img src="./images/share.png" alt="">
+                        <span> Share</span>
+                    </div>
+                    <div class="activity-action">
+                        <img src="./images/send.png" alt="">
+                        <span> Send</span>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="post">
+
+                <div class="post-author">
+                    <div class="author-img">
+                        <img src="./images/user-1.png" alt="">
+                    </div>
+                    <div class="author-text">
+                        <h3>Amir Kamizi</h3>
+                        <p>CEO at Backend.</p>
+                        <small>7 hours ago</small>
+                    </div>
+                </div>
+
+                <div class="post-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nesciunt debitis quisquam esse nam excepturi dolore minima maiores commodi laborum!</p>
+                </div>
+                <div class="post-img">
+                    <img src="./images/post-image-3.png" alt="">
+                </div>
+
+                <div class="post-stats">
+                    <div class="stats-left">
+                        <img src="./images/thumbsup.png" alt="">
+                        <img src="./images/love.png" alt="">
+                        <img src="./images/clap.png" alt="">
+                        <span class="liked-users">Abhinav Mishra and 77 others</span>
+                    </div>
+                    <div class="stats-right">
+                        22 Comments &middot; 40 Shares
+                    </div>
+                </div>
+
+                <div class="post-activity">
+                    <div class="activity-user">
+                        <img src="./images/user-1.png" alt="" class="author">
+                        <img src="./images/down-arrow.png" alt="" class="arrow">
+                    </div>
+                    <div class="activity-action">
+                        <img src="./images/like.png" alt="">
+                        <span> Like</span>
+                    </div>
+                    <div class="activity-action">
+                        <img src="./images/comment.png" alt="">
+                        <span> Comment</span>
+                    </div>
+                    <div class="activity-action">
+                        <img src="./images/share.png" alt="">
+                        <span> Share</span>
+                    </div>
+                    <div class="activity-action">
+                        <img src="./images/send.png" alt="">
+                        <span> Send</span>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="post">
+
+                <div class="post-author">
+                    <div class="author-img">
+                        <img src="./images/user-1.png" alt="">
+                    </div>
+                    <div class="author-text">
+                        <h3>John Doe</h3>
+                        <p>Founder of Web Developers.</p>
+                        <small>9 hours ago</small>
+                    </div>
+                </div>
+
+                <div class="post-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nesciunt debitis quisquam esse nam excepturi dolore minima maiores commodi laborum!</p>
+                </div>
+                <div class="post-img">
+                    <img src="./images/post-image-4.png" alt="">
+                </div>
+
+                <div class="post-stats">
+                    <div class="stats-left">
+                        <img src="./images/thumbsup.png" alt="">
+                        <img src="./images/love.png" alt="">
+                        <img src="./images/clap.png" alt="">
+                        <span class="liked-users">Abhinav Mishra and 77 others</span>
+                    </div>
+                    <div class="stats-right">
+                        22 Comments &middot; 40 Shares
+                    </div>
+                </div>
+
+                <div class="post-activity">
+                    <div class="activity-user">
+                        <img src="./images/user-1.png" alt="" class="author">
+                        <img src="./images/down-arrow.png" alt="" class="arrow">
+                    </div>
+                    <div class="activity-action">
+                        <img src="./images/like.png" alt="">
+                        <span> Like</span>
+                    </div>
+                    <div class="activity-action">
+                        <img src="./images/comment.png" alt="">
+                        <span> Comment</span>
+                    </div>
+                    <div class="activity-action">
+                        <img src="./images/share.png" alt="">
+                        <span> Share</span>
+                    </div>
+                    <div class="activity-action">
+                        <img src="./images/send.png" alt="">
+                        <span> Send</span>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+        <!-- Main Content Ends -->
+
+        <!-- Right Sidebar -->
+        <div class="right-sidebar">
+            
+            <div class="sidebar-news">
+                <div class="news-top">
+                    <div class="news-img">
+                    <img src="./images/more.png" alt="">
+                </div>
+                <h1>Trending News</h1>
+                </div>
+                <ul>
+                    <li><a href="#">High Demand for Manpower</a><span>1d ago, &middot; 10, 134 Readers</span></li>
+                    <li><a href="#">Careers Growing Horizontally too</a><span>9d ago, &middot; 90, 134 Readers</span></li>
+                    <li><a href="#">Is Blogging Dead after AI</a><span>13d ago, &middot; 43, 134 Readers</span></li>
+                    <li><a href="#">Is AI gonna Replace Programmers</a><span>14 ago, &middot; 45, 134 Readers</span></li>
+                    <li><a href="#">Is seo dead in 2024</a><span>19d ago, &middot; 4, 134 Readers</span></li>
+                </ul>
+                <a href="#" class="see-all">See All</a>
+            </div>
+
+            <div class="sidebar-ads">
+                <small>Ad &middot; &middot; &middot;</small>
+                <p>Master the 5 principles of web design.</p>
+                <div class="ad-images">
+                    <img src="./images/user-1.png" alt="">
+                    <img src="./images/mi-logo.png" alt="">
+                </div>
+                <p>Brand and Demand in Xiaomi</p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div class="sidebar-links">
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">Privacy</a>
+                <a href="#">Services</a>
+                <a href="#">Blog</a>
+                <a href="#">Advertisement</a>
+                <a href="#">Need Help</a>
+
+                <div class="copyright-msg">
+                    <img src="./images/logo.png" alt="">
+                    <p>Linkedup &copy; 2024</p>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- Right Sidebar Ends -->
+    </main>
+    
+    <!-- Main Content Ends -->
+
+<script src="./assets/script.js"></script>
+</body>
+</html>
